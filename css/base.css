@@ -1,3 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Dosis", "Open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+.ht, h1 {font-size: 3.5rem;}
+
 :root{
     /** COLORS **/
     --color-primary:#a597e7;
@@ -13,6 +45,42 @@
     --color-transparent:transparent;
     --color-border:#dee2e6;
     --color-dark-transparent:rgba(0,0,0, 0.2);
+
+    /** DISPLAY **/
+    --display-xxs: 1rem;
+    --display-xs: 1.4rem;
+    --display-sm: 1.6rem;
+    --display-md: 1.8rem;
+    --display-lg: 2rem;
+    --display-xl: 2.5rem;
+    --display-xxl: 3rem;
+
+    /** LINE HEIGHT **/
+    --line-height-sm: 1rem;
+    --line-height-md: 1.6rem;
+    --line-height-lg: 3rem;
+
+    /** DISTANCE **/
+    --distance-0: 0rem;
+    --distance-1: .75rem;
+    --distance-2: 1.25rem;
+    --distance-3: 1.75rem;
+    --distance-4: 2.25rem;
+    --distance-5: 3rem;
+
+    /** SHADOWS **/
+    --shadow-small-light: .15rem, .15rem 0 rgba(0,0,0, .1);
+    --shadow-large-light: .25rem, .25rem 0 rgba(0,0,0, .1);
+
+    /** BORDERS **/
+    --border-xs-white: .1rem solid var(--color-white);
+    --border-xs: .1rem solid var(--color-light);
+    --border-sm: .2rem solid var(--color-light);
+    --border-lg: .4rem solid var(--color-white);
+
+    --border-radius-sm: .25rem;
+    --border-succed: .2rem solid var(--color-succes)!important;
+    --border-transparent: .1rem solid var(--color-transparent);
 }
 
     /** BG **/
