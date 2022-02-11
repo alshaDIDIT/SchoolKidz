@@ -1,0 +1,45 @@
+.max-width {
+    max-width: 192rem;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto;
+}
+
+.p-0 {
+    padding: var(--distance-0);
+}
+
+.p-1 {
+    padding: var(--distance-1);
+}
+
+.p-2 {
+    padding: var(--distance-2);
+}
+
+.p-3 {
+    padding: var(--distance-3);
+}
+
+.p-4 {
+    padding: var(--distance-4);
+}
+
+.p-5 {
+    padding: var(--distance-5);
+}
+
+.bar-height {
+    height: 0.3rem;
+}
+
+.logo-width {
+    max-width: 13rem;
+}
