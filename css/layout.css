@@ -1,15 +1,19 @@
 /*
             WIDTHS
 */
-.max-width {
-    max-width: 192rem;
-}
+.max-width { max-width: 192rem; }
 
 /* 
             POSITIONS
 */
 .position-relative { position: relative !important; }
 .position-aboslute { position: absolute !important; }
+.overflow-hidden { overflow: hidden; }
+.centerXY {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*
             MARGINS
@@ -57,6 +61,7 @@
             TYPOGRAPHY
  */
 .text-decoration-none { text-decoration: none; }
+.text-center { text-align: center; }
 
 .text-size-xxs { font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
@@ -73,16 +78,12 @@
 /* 
             CIRCLE
  */
- .circle {
-    border-radius: 100%;
-}
+ .circle { border-radius: 100%; }
 
 /* 
             SHADOWS
  */
- .shadow-sm {
-    box-shadow: var(--shadow-small-light);
-}
+ .shadow-sm { box-shadow: var(--shadow-small-light); }
 
 /* 
             BUTTONS
@@ -104,13 +105,25 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 /* 
             COLORED BAR 
 */
-.bar-height {
-    height: 0.3rem;
-}
+.bar-height { height: 0.3rem; }
 
 /*
             IMAGES
 */
-.logo-width {
-    max-width: 13rem;
+.logo-width { max-width: 13rem; }
+
+/* SLIDER */
+.slider-width { width: 400%; } /* 100% per img */
+.slider-container { width: 25%; } /* Display 1 image at a time */
+.slider-img { width: 100%; object-fit: cover; } /* img covers container */
+
+/* .slider-animation { animation: 30s slider-keyframes infinite;} */
+@keyframes slider-keyframes {
+    0% { left: 0% ; }
+    15% { left: -100% ;}
+    30% { left: -200% ;}
+    45% { left: -300% ;}
+    60% { left: -200% ;}
+    75% { left: -100% ;}
+    100% { left: 0% ; }
 }
