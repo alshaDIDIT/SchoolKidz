@@ -1,15 +1,20 @@
-.d-flex {
-    display: flex;
-}
+/* 
+            DISPLAY
+*/
+.d-flex { display: flex; }
+.d-none { display: none; }
 
-.flex-grow {
-    flex-grow: 1;
-}
+/* 
+            FLEX
+*/
+.flex-grow { flex-grow: 1; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.flex-row-reverse { flex-direction: row-reverse; }
 
-.justify-content-between {
-    justify-content: space-between;
-}
-
-.align-items-center {
-    align-items: center;
-}
+/* 
+            ALIGN & JUSTIFY
+*/
+.justify-content-between { justify-content: space-between; }
+.justify-content-center { justify-content: center; }
+.align-items-center { align-items: center; }

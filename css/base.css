@@ -23,30 +23,10 @@ body {
     min-height: 100vh;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Dosis", "Open Sans", sans-serif;
-    font-weight: 700;
-    letter-spacing: .05rem;
-}
-
-.ht,
-h1 {
-    font-size: 3.5rem;
-}
-
 :root {
-    /** COLORS **/
+    /**
+                COLORS
+    **/
     --color-primary: #a597e7;
     --color-secondary: #6c757d;
     --color-succes: #b5d56a;
@@ -60,7 +40,10 @@ h1 {
     --color-transparent: transparent;
     --color-border: #dee2e6;
     --color-dark-transparent: rgba(0, 0, 0, 0.2);
-    /** DISPLAY **/
+
+    /**
+                DISPLAY
+    **/
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
     --display-sm: 1.6rem;
@@ -68,21 +51,44 @@ h1 {
     --display-lg: 2rem;
     --display-xl: 2.5rem;
     --display-xxl: 3rem;
-    /** LINE HEIGHT **/
+
+    /**
+                LINE HEIGHT
+    **/
     --line-height-sm: 1rem;
     --line-height-md: 1.6rem;
     --line-height-lg: 3rem;
-    /** DISTANCE **/
+
+    /**
+                DISTANCE
+    **/
     --distance-0: 0rem;
-    --distance-1: .75rem;
-    --distance-2: 1.25rem;
-    --distance-3: 1.5rem;
-    --distance-4: 2.25rem;
-    --distance-5: 3rem;
-    /** SHADOWS **/
-    --shadow-small-light: .15rem, .15rem 0 rgba(0, 0, 0, .1);
-    --shadow-large-light: .25rem, .25rem 0 rgba(0, 0, 0, .1);
-    /** BORDERS **/
+    --distance-1: .25rem;
+    --distance-2: .5rem;
+    --distance-3: .75rem;
+    --distance-4: 1rem;
+    --distance-5: 1.25rem;
+    --distance-6: 1.5rem;
+    --distance-7: 1.75rem;
+    --distance-8: 2rem;
+    --distance-9: 2.25rem;
+    --distance-10: 2.5rem;
+    --distance-11: 2.75rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
+    --distance-16: 4rem;
+
+    /**
+                SHADOWS
+    **/
+    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
+    --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
+
+    /**
+                BORDERS
+    **/
     --border-xs-white: .1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
     --border-sm: .2rem solid var(--color-light);
@@ -92,41 +98,46 @@ h1 {
     --border-transparent: .1rem solid var(--color-transparent);
 }
 
+.h1,.h2,.h3,.h4,
+.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    font-family: "Dosis", "Open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
 
-/** BG **/
+.ht,h1 {
+    font-size: 3.5rem;
+}
 
-.bg-primary,
-.btn-primary {
+
+/**
+            BG-COLOR
+**/
+.bg-primary, .btn-primary {
     background-color: var(--color-primary);
 }
 
-.bg-secondary,
-.btn-secondary {
+.bg-secondary, .btn-secondary {
     background-color: var(--color-secondary);
 }
 
-.bg-success,
-btn-success {
+.bg-success, .btn-success {
     background-color: var(--color-succes);
 }
 
-.bg-info,
-.btn-info {
+.bg-info, .btn-info {
     background-color: var(--color-info);
 }
 
-.bg-warning,
-.btn-warning {
+.bg-warning, .btn-warning {
     background-color: var(--color-warning);
 }
 
-.bg-danger,
-.btn-danger {
+.bg-danger, .btn-danger {
     background-color: var(--color-danger);
 }
 
-.bg-light,
-.btn-light {
+.bg-light, .btn-light {
     background-color: var(--color-light);
 }
 
@@ -135,13 +146,11 @@ btn-success {
     background-color: var(--color-dark);
 }
 
-.bg-white,
-.btn-white {
+.bg-white, .btn-white {
     background-color: var(--color-white);
 }
 
-.bg-cozy,
-.btn-cozy {
+.bg-cozy, .btn-cozy {
     background-color: var(--color-cozy);
 }
 
@@ -154,8 +163,9 @@ btn-success {
 }
 
 
-/** TEXT **/
-
+/**
+            TEXT-COLOR
+**/
 .text-primary {
     color: var(--color-primary);
 }
@@ -197,8 +207,9 @@ btn-success {
 }
 
 
-/** BORDER **/
-
+/**
+            BORDER-BOTTOM-COLOR
+**/
 .border-color-primary {
     border-bottom-color: var(--color-primary)!important;
 }
