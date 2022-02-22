@@ -3,6 +3,8 @@
 */
 .max-width { max-width: 192rem; }
 .card-width { max-width: 60rem; }
+.width-lg { max-width: 50%; }
+.min-width-xxl { min-width: 100%; }
 
 /* 
             POSITIONS
@@ -25,6 +27,7 @@
 .mx-auto { margin-left: auto; }
 
 .m-6 { margin: var(--distance-6); }
+.m-15 { margin: var(--distance-15); }
 
 .mt-0, .my-0 { margin-top: var(--distance-0); }
 .mb-0, .my-0 { margin-bottom: var(--distance-0); } /* 0rem */
@@ -165,9 +168,10 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
     height: 6.2rem;
     line-height: 6rem;
 }
+.icon-form-control { right: 10px; top: 10px; }
 
 /* 
-            ICONS
+            STATISTICS
 */
 .statistics-image {
     background-image: url('../images/fun-facts/fun-facts-bg-img.jpg');
